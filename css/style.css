@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Play');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Play";
+    font-weight: normal;
+    font-size: 55px;
+    text-align: center;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-family: "Play";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: left;
+    text-decoration: underline;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    font-family: "Play";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    font-family: "Play";
+    font-size: 14px;
+    position: inherit;
+    
+}
+
+.content {
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background: #00a1dd;
+    height: 60px;
+    position: fixed;
+    margin-top: 20px;
+}
+
+#nav {
+    width: 410px;
+    float: right;
+    padding-right: 150px;
+    margin-top: 10px;
+}
+
+#nav ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: 21px;
+}
+
+#nav li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Play"
+}
+#nav li a.active {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff
+}
+
+#nav li a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+#foto {
+    display: block;
+    margin-top: 50px;
+}
+img {
+    height: 220px;
+    width: 230px;
+    border-radius: 150px;
+    border: 2px solid #636363;
+    padding: 5px;
+}
+#ikonBox {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.ikon2 {
+    display: inline-block;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+section div a {
+    color: #636363;
+    opacity: 1;
+}
+
+section div a:hover {
+    opacity: .5;
+    transition: 0.3s ease-in-out;    
+}
+
+#slide1 {
+    background-color: #fff;
+    color: #636363;
+    margin: 0;
+    height: 80hv;
+    width: 100wh;
+    padding: 120px 0 260px 0;
+    background-size: cover;
+}
+
+#slide2 {
+    background-color: #fff;
+    color: #636363;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 120px 200px;
+    height: 100vh;
+}
+
+#slide3 {
+    background-color: #fff;
+    color: #636363;
+    height: 100vh;
+    padding: 120px 200px;
+    background-size: cover;
+}
+
+#slide4 {
+    background-color: #fff;
+    color: #636363;
+    margin: 0 auto;
+    padding: 120px 200px 150px;
+    background-size: cover;
+}
+
+#copyright {
+    color: #636363;
+    font-family: "Play";
+    font-size: 14px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.skills-ikon {
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.html {
+    background-image: url(E:/Page/images/html.png);
+}
+
+.css {
+    background-image: url(E:/Page/images/css.png);
+}
+
+.js {
+    background-image: url(E:/Page/images/js.png);
+}
+
+.jq {
+    background-image: url(E:/Page/images/jq.png);
+}
+
+.bs {
+    background-image: url(E:/Page/images/bs.png);
+}
+
+.node {
+    background-image: url(E:/Page/images/node.png);
+}
+
+.ikon {
+    border: 1px solid #00a1dd;
+    height: 100%;
+    width: 12%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+
