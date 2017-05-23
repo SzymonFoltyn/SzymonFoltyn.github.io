@@ -13,7 +13,7 @@ main {
 nav {
     background-color: #00a1dd;
     text-align: right;
-    z-index: inherit;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .4);
 }
 
 .menu {
@@ -23,6 +23,17 @@ nav {
     font-size: 20px;
     min-height: 40px;
     line-height: 200%;
+    z-index: 150;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    opacity: 0.7;
+    z-index: 150;
+
 }
 
 .menu > li {
@@ -50,11 +61,12 @@ nav {
     color: #ffffff;
     font-weight: 700;
     opacity: 1;
-    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
 }
 
 section {
     margin: 0 auto;
+    padding: 0;
     height: 100vh;
 }
 
@@ -65,11 +77,11 @@ section:first-child {
 
 #home {
     margin: 0 auto;
-    height: 400px;
+    height: 450px;
     letter-spacing: 3px;
     text-align: center;
     text-shadow: 4px 4px 8px #636363;
-    line-height: 320px;
+    line-height: 350px;
 }
 
 h2 {
